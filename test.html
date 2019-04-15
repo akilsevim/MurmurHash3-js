@@ -1,10 +1,21 @@
 <html>
     <head>
         <title>MurmurHash-js Tests</title>
+        <script
+                src="https://code.jquery.com/jquery-3.4.0.min.js"
+                integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+                crossorigin="anonymous"></script>
         <script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
         <script src="MurmurHash3-js.js"></script>
+        <script src="test.js"></script>
     </head>
     <body>
 
+    <input type="text" id="start" placeholder="start" value="0">
+    <input type="text" id="stop" placeholder="stop" value="100">
+    <input type="text" id="seedStart" placeholder="seed start" value="0">
+    <input type="text" id="seedStop" placeholder="seed stop" value="5">
+    <input type="button" id="startButton" value="start" onclick="start()">
+    <div id="output"></div>
     </body>
 </html>
