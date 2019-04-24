@@ -6,5 +6,5 @@ function testCpp() {
             return;
         }
     });
-    document.write("All tests passed");
+    document.write("All tests are passed");
 }
